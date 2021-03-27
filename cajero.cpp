@@ -1,4 +1,4 @@
-//librer韆s
+//librer铆as
 #include <iostream>
 #include<cmath>
 #include <stdio.h>
@@ -13,7 +13,7 @@ int main() {
 //variables
 	int ahorro, ingresodeposito, clave, maximo, resto;
 	int cant1000,cant20000,cant50000,cant2000,cant5000,cant10000;
-	//asignaci髇 de variables
+	//asignaci贸n de variables
 	
 	ahorro= 10000000;
 	ingresodeposito=1;
@@ -23,7 +23,7 @@ int main() {
 	
 	system ( "color 06" );
 	cout<<"****************************************************************************"<<endl;
-	cout<<"\t\t\t Cajero para dep髎itos "<<endl;
+	cout<<"\t\t\t Cajero para dep贸sitos "<<endl;
 	cout<<"****************************************************************************"<<endl;
 	cout<<"Ingrese clave:"<<endl;
 	cin>>clave;
@@ -41,7 +41,7 @@ int main() {
 		cout<<" "<<endl;
 		cout<<"Su cuenta tiene actualmente: "<<ahorro<<" colones"<<endl;
 		cout<<"------------------------------------------"<<endl;
-		cout<<"Queda, luego del dep髎ito: "<<ahorro<<" colones"<<endl;
+		cout<<"Queda, luego del dep贸sito: "<<ahorro<<" colones"<<endl;
 		cout<<"------------------------------------------"<<endl;
 		system ( "color 03" );
 		
@@ -81,7 +81,7 @@ int main() {
 		 			ingresodeposito=0;
 		 			
 		 			}else if (ingresodeposito>maximo){
-		 				cout<<"Ha dep髎itado el maximo por dia"<<endl;
+		 				cout<<"Ha dep贸sitado el maximo por dia"<<endl;
 		 				ingresodeposito=0;
 		 				}
 						}
@@ -93,3 +93,4 @@ int main() {
 							}						
 							return 0;
 							}
+//Haciendo la primera prueba para un Pull Request 
