@@ -7,3 +7,4 @@ print("la suma es: ")
 print(suma)
 print("el promedio es: ")
 print(promedio)
+#haciendo un comentario
